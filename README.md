@@ -20,7 +20,7 @@ Once QGIS is installed, R scripts can be chained up for use in QGIS:
 https://docs.qgis.org/3.4/en/docs/training_manual/processing/r_intro.html
 
 To run the channel migration dtw algorithm using the QGIS, select "R -> Vector Processing -> Channel Migration" from the QGIS Processing tools.
-Two input shapefiles are required: 
+Two input shapefiles (*.shp) are required: 
 - one for the "Start" river centerline 
 - another for the "End" centerline. 
 Note that both centerlines need to be projected in the same coordinate reference system.
